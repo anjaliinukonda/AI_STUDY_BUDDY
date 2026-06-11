@@ -5,8 +5,11 @@ import os
 
 # load_dotenv()
 
+# client = genai.Client(
+#     api_key=os.getenv("AQ.Ab8RN6IkdSLl5ZevqD8ntByCf6--oS3yWBxw6Oz4jXvgsaXPpQ")
+# )
 client = genai.Client(
-    api_key=os.getenv("AQ.Ab8RN6IkdSLl5ZevqD8ntByCf6--oS3yWBxw6Oz4jXvgsaXPpQ")
+    api_key="AQ.Ab8RN6IkdSLl5ZevqD8ntByCf6--oS3yWBxw6Oz4jXvgsaXPpQ"
 )
 
 st.title("ConceptBridge AI")
