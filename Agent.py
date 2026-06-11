@@ -9,7 +9,7 @@ import os
 #     api_key=os.getenv("AQ.Ab8RN6IkdSLl5ZevqD8ntByCf6--oS3yWBxw6Oz4jXvgsaXPpQ")
 # )
 client = genai.Client(
-    api_key="AQ.Ab8RN6IkdSLl5ZevqD8ntByCf6--oS3yWBxw6Oz4jXvgsaXPpQ"
+    api_key="AQ.Ab8RN6LpcpwAnxoSfE3dtGsId_JIiYrMY5ZpiING0-RsHuVW0g"
 )
 
 st.title("ConceptBridge AI")
