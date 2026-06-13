@@ -12,7 +12,7 @@ client = genai.Client(
 #     api_key="AQ.Ab8RN6LpcpwAnxoSfE3dtGsId_JIiYrMY5ZpiING0-RsHuVW0g"
 # )
 
-st.title("ConceptBridge AI")
+st.title("Smart AI Buddy")
 
 question = st.text_input("Ask a question")
 
